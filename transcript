@@ -1,0 +1,88 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# Loading project lab3
+# Compile of half_adder_lab1.v was successful.
+vsim half_add.v
+# vsim half_add.v 
+# ** Error: (vsim-19) Failed to access library 'half_add' at "half_add".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+vsim work.half_add
+# vsim work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/Users/GTX/Downloads/Stim.do
+do C:/Users/GTX/Downloads/Stim.do
+run -all
+add wave sim:/half_add/*
+add wave sim:/half_add/*
+do C:/Users/GTX/Downloads/Stim.do
+run -all
+# Break key hit 
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/Users/GTX/Downloads/Stim.do
+run -all
+run -all
+add wave sim:/half_add/*
+do C:/Users/GTX/Downloads/Stim.do
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/Users/GTX/Downloads/Stim.do
+run -all
+add wave sim:/half_add/*
+do C:/Users/GTX/Downloads/Stim.do
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/Users/GTX/Downloads/Stim1.do
+run -all
+# Break key hit 
+# Simulation stop requested.
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/Users/GTX/Downloads/Stim2.do
+run -all
+add wave sim:/half_add/*
+# Break key hit 
+# Simulation stop requested.
+do C:/Users/GTX/Downloads/Stim2.do
+# Break key hit 
+add wave sim:/half_add/*
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/Users/GTX/Downloads/Stim2.do
+run -all
+# Break key hit 
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/Users/GTX/Downloads/Stim3.do
+run -all
+# Break key hit 
+add wave sim:/half_add/*
+do C:/Users/GTX/Downloads/Stim3.do
+# ** Error: (vsim-4012) Expected ',' separator between value/time pairs.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# Error in macro C:\Users\GTX\Downloads\Stim3.do line 2
+# ** Error: (vsim-4012) Expected ',' separator between value/time pairs.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+#     while executing
+# "force B 1 500ps after 1000ps"
+run -all
+quit -sim
